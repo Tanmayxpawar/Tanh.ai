@@ -1,0 +1,17 @@
+{
+  "name": "tanh.ai",
+  "version": "1.0.0",
+  "description": "Chatting app",
+  "main": "index.js",
+  "scripts": {
+    "test": "NA"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "Chatting app",
   "main": "index.js",
   "scripts": {
-    "test": "NA"
+    "dev": "nodemon server"
   },
   "author": "",
   "license": "ISC",

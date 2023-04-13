@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<section class="chat_section">
-<div class="brand">
-    <img src="/Tanhai.png" alt="">
-    <h1>Tanh.ai</h1>
-</div>
+<section class="chat_section" style="position: relative;">
+<textarea  id="textarea" cols="30" rows="1" placeholder="Write a message.." style="position: absolute; bottom: 0; left: 0; right: 0;  height: 80px;" > </textarea>
+
+<img src="/Tanhai.png" class="logo" alt="">
+
 <div class="message__area"></div>
-<div>
-    <textarea  id="textarea" cols="30" rows="1" placeholder="Write a message.."> </textarea>
-</div>
+
+
+
 </section>
 
 <script src="/socket.io/socket.io.js"></script>

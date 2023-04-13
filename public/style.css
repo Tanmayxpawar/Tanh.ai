@@ -17,11 +17,11 @@ body {
 }
 section.chat_section {
     width: 700px;
-    height: 500px;
+    height: 550px;
     max-width: 90%;
     background: #fff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    
+    margin-top: 0px;
 }
 
 .message__area{
@@ -41,7 +41,9 @@ textarea {
     background: #FBFBFB;
     position: relative;
     resize: none;
-    
+    width: 701px;
+    display: block;
+     margin: 0 auto;
 }
 
 .message {
@@ -56,7 +58,7 @@ textarea {
     color: #fff;  
 }
 .outgoing {
-    background: #e9eafd;
+    background: #c0c1d8;
     color: #787986;
     margin-left: auto;
 }

@@ -10,10 +10,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #F8F8F8;
+    background: #93f2ff;
     font-family: 'Roboto', sans-serif;
 }
-section.chat__section {
+section.chat_section {
     width: 800px;
     max-width: 90%;
     background: #fff;

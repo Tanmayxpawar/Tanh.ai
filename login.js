@@ -1,4 +1,4 @@
-const givenPassword = "password123"; // Replace with your own password
+const givenPassword = "root"; // Replace with your own password
 
 document.getElementById("loginbutton").addEventListener("click", function(event) {
   event.preventDefault(); // Prevent form from submitting

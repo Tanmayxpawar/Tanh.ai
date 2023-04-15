@@ -33,10 +33,11 @@ body {
 	position: relative;	
 	height: 600px;
 	width: 360px;	
-	/* box-shadow: 0px 0px 24px #5C5696; */
+	 box-shadow: 0px 0px 24px #000000; 
 	display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .screen__content {

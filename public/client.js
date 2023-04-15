@@ -1,16 +1,16 @@
-const socket = io()
-let name;
-let textarea = document.querySelector('#textarea')
-let messageArea = document.querySelector('.message__area')
-do {
-    name = prompt('Please enter your name: ')
-} while(!name)
+const socket = io();
+let textarea = document.querySelector('#textarea');
+let messageArea = document.querySelector('.message__area');
+
+// Retrieve username from query parameter
+const urlParams = new URLSearchParams(window.location.search);
+const name = decodeURIComponent(urlParams.get('username'));
 
 textarea.addEventListener('keyup', (e) => {
     if(e.key === 'Enter') {
         sendMessage(e.target.value)
     }
-})
+});
 
 function sendMessage(message) {
     let msg = {
